@@ -70,11 +70,7 @@ function getProjectName(ctx, projectRoot) {
  *
  * @return {String} absolute path to config.xml file
  */
-function pathToIosConfigXml() {
-  var projectName = getProjectName(cordovaContext, projectRoot);
 
-  return path.join(projectRoot, 'platforms', 'ios', projectName, 'config.xml');
-}
 
 /**
  * Get path to config.xml inside Android project.
@@ -92,21 +88,8 @@ function pathToAndroidConfigXml() {
  * @return {String} absolute path to config.xml
  */
 function getPlatformSpecificConfigXml(platform) {
-  var configFilePath = null;
-  switch (platform) {
-    case 'ios':
-      {
-        configFilePath = pathToIosConfigXml();
-        break;
-      }
-    case 'android':
-      {
-        configFilePath = pathToAndroidConfigXml();
-        break;
-      }
-  }
 
-  return configFilePath;
+  return pathToAndroidConfigXml();
 }
 
 /**
