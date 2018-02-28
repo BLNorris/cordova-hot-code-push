@@ -19,7 +19,7 @@ After it is set you can run build command like that:
   cordova build -- build_name_1
 
 If no option is provided - hook will use .chcpenv file to build for local development.
-More information can be found on https://github.com/nordnet/cordova-hot-code-push.
+More information can be found on https://github.com/blnorris/cordova-hot-code-push.
 */
 
 var chcpBuildOptions = require('./lib/chcpBuildOptions.js');

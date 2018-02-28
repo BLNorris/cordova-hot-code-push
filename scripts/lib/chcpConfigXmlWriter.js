@@ -66,13 +66,6 @@ function getProjectName(ctx, projectRoot) {
 }
 
 /**
- * Get path to config.xml inside iOS project.
- *
- * @return {String} absolute path to config.xml file
- */
-
-
-/**
  * Get path to config.xml inside Android project.
  *
  * @return {String} absolute path to config.xml file

@@ -2,7 +2,7 @@
 Hook is executed when plugin is added to the project.
 It will check all necessary module dependencies and install the missing ones locally.
 Also, it will suggest to user to install CLI client for that plugin.
-It can be found in https://github.com/nordnet/cordova-hot-code-push-cli
+It can be found in https://github.com/blnorris/cordova-hot-code-push-cli
 */
 
 var path = require('path');
@@ -33,7 +33,7 @@ function suggestCliInstallation() {
   console.log('To make the development process easier for you - we developed a CLI client for our plugin.');
   console.log('To install it, please, use command:');
   console.log('npm install -g cordova-hot-code-push-cli');
-  console.log('For more information please visit https://github.com/nordnet/cordova-hot-code-push-cli');
+  console.log('For more information please visit https://github.com/blnorris/cordova-hot-code-push-cli');
   console.log('--------------------------');
 }
 
