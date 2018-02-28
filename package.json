@@ -5,13 +5,12 @@
   "cordova": {
     "id": "cordova-hot-code-push-plugin",
     "platforms": [
-      "android",
-      "ios"
+      "android"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nordnet/cordova-hot-code-push.git"
+    "url": "git+https://github.com/blnorris/cordova-hot-code-push.git"
   },
   "keywords": [
     "cordova",
@@ -21,8 +20,7 @@
     "update",
     "push",
     "ecosystem:cordova",
-    "cordova-android",
-    "cordova-ios"
+    "cordova-android"
   ],
   "engines": [
     {
